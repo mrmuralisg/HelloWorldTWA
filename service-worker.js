@@ -1,10 +1,10 @@
 const CACHE_NAME = 'hello-world-twa-v1';
 const URLS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/icon-192.png',
-  '/icon-512.png'
+  '/HelloWorldTWA/',
+  '/HelloWorldTWA/index.html',
+  '/HelloWorldTWA/manifest.json',
+  '/HelloWorldTWA/icon-192.png',
+  '/HelloWorldTWA/icon-512.png'
 ];
 
 self.addEventListener('install', event => {
