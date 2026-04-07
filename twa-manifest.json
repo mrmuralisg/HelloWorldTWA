@@ -1,0 +1,61 @@
+{
+  "packageId": "io.github.mrmuralisg.twa",
+  "host": "mrmuralisg.github.io",
+  "name": "Hello World TWA",
+  "launcherName": "HelloTWA",
+  "display": "standalone",
+  "themeColor": "#4CAF50",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "enableNotifications": true,
+  "startUrl": "/HelloWorldTWA",
+  "iconUrl": "https://mrmuralisg.github.io/HelloWorldTWA/icon-512.png",
+  "maskableIconUrl": "https://mrmuralisg.github.io/HelloWorldTWA/icon-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "C:\\Users\\WELCOME\\Desktop\\Myalldocs\\MyWorkspace\\HelloWorldTWA\\android.keystore",
+    "alias": "alias1"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Open App",
+      "shortName": "Open",
+      "url": "https://mrmuralisg.github.io/HelloWorldTWA/",
+      "chosenIconUrl": "https://mrmuralisg.github.io/HelloWorldTWA/icon-192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://mrmuralisg.github.io/HelloWorldTWA/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://mrmuralisg.github.io/HelloWorldTWA/",
+  "minSdkVersion": 21,
+  "orientation": "any",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [
+    {
+      "protocol": "web+hellotwa",
+      "url": "https://mrmuralisg.github.io/HelloWorldTWA/?action=%s"
+    }
+  ],
+  "fileHandlers": [],
+  "launchHandlerClientMode": "",
+  "displayOverride": [
+    "standalone"
+  ],
+  "appVersion": "1"
+}
